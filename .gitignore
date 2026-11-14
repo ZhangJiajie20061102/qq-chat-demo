@@ -1,0 +1,29 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+
+# ---------- PyCharm / IDE ----------
+.idea/
+*.iml
+.vscode/
+
+# ---------- 运行生成的数据库（服务器首次启动会自动重建） ----------
+*.db
+*.db-journal
+
+# ---------- 旧版本备份 ----------
+旧版本备份/
+
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
